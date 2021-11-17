@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Oswald", sans-serif;
+  background-image: url(./real-estate-office08.jpg);
+  background-size: 100% 110%;
+}
+
+.main {
+  background-color: rgba(0, 0, 0, 0.555);
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0);
+  height: 13vh;
+  border-bottom: 2px solid rgba(98, 98, 98);
+  gap: 30rem;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.icon {
+  color: rgb(221, 221, 221);
+  font-weight: 600;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.5rem;
+}
+
+.links a {
+  text-decoration: none;
+  color: rgba(184, 184, 184, 0.685);
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.links a:nth-child(1) {
+  color: rgb(221, 221, 221);
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 87vh;
+  color: rgb(221, 221, 221);
+  gap: 8rem;
+}
+
+.st {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.st a {
+  padding: 1.3rem 3rem;
+  text-decoration: none;
+  color: rgb(214, 214, 214);
+  background-color: #38cfa4;
+  border-radius: 3px;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.3rem;
+}
+
+.buy {
+  font-size: 3.6rem;
+  text-align: center;
+  font-weight: 800;
+}
+
+.lorem {
+  font-size: 1.5rem;
+  width: 55.5%;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  /* font-weight: 600; */
+  line-height: 30px;
+  word-spacing: 1px;
+  font-family: Calibri;
+}
+
+.nd {
+  /* background-color: royalblue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.circle1 {
+  background-color: #38cfa4;
+  height: 1.8vh;
+  width: 1.8vh;
+  border-radius: 50%;
+}
+
+.circle2 {
+  height: 1.8vh;
+  width: 1.8vh;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.p1 {
+  color: white;
+}
